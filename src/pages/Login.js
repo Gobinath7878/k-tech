@@ -49,7 +49,7 @@ function Login() {
               onLoad={handleDancingImgLoad}
             />
           </Col>
-          <Col lg="6" className="login-rightside px-5 my-3">
+          <Col lg="6" className="login-rightside px-5 mb-5 mt-4">
             <h3 className="mt-3 fw-bold">Login</h3>
 
             <Form className="mt-3" onSubmit={handleSubmit}>
