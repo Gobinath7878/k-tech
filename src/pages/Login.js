@@ -31,7 +31,7 @@ function Login() {
   };
   return (
     <>
-      <Container className="my-5">
+      <Container className="mb-5 mt-3">
         <Row className="m-0 login-container">
           {/* <Col lg="6" className="login-leftside p-0">
             <img src={LoginImg} alt="Loading..." className="login-img dancing" />
@@ -49,10 +49,10 @@ function Login() {
               onLoad={handleDancingImgLoad}
             />
           </Col>
-          <Col lg="6" className="login-rightside px-5 my-5">
+          <Col lg="6" className="login-rightside px-5 my-3">
             <h3 className="mt-3 fw-bold">Login</h3>
 
-            <Form className="mt-5" onSubmit={handleSubmit}>
+            <Form className="mt-3" onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control
