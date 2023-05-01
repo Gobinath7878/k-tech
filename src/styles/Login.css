@@ -1,0 +1,52 @@
+.login-container{
+    height:90vh !important;
+    margin: 0;
+    border-radius: 10px;
+    background-color:  #f3f3f8  ;
+}
+
+.login-img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+     /* Set the initial position of the image */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.G-button{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dancing {
+    /* Define the animation */
+    animation-name: dance;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes dance {
+    0% {
+      /* Starting position */
+      transform: translateY(0);
+    }
+    50% {
+      /* Move halfway down */
+      transform: translateY(-100%);
+
+    }
+    100% {
+      /* Move back to the top */
+      transform: translateY(0);
+    }
+  }
+  @media screen and (max-width:768px) {
+    .login-img{
+        display: none;
+    }
+    
+  }
