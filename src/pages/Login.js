@@ -6,7 +6,8 @@ import "../styles/Login.css";
 import { FcGoogle } from "react-icons/fc";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
+
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -90,11 +91,12 @@ function Login() {
               <h6 className="text-muted">or</h6>
               <hr className="w-50 mx-2" />
             </div>
-            <div className="G-button mb-5">
+            <div className="G-button mb-5"><Link className="text-dark">
               <h6 className="text-center fw-bold">
                 <FcGoogle style={{ marginRight: "5px" }} />
                 Authorize with Google
               </h6>
+              </Link>
             </div>
           </Col>
         </Row>
