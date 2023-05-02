@@ -91,7 +91,7 @@ function Login() {
               <h6 className="text-muted">or</h6>
               <hr className="w-50 mx-2" />
             </div>
-            <div className="G-button mb-5"><Link className="text-dark">
+            <div className="G-button mb-5"><Link className="text-dark" to='/home'>
               <h6 className="text-center fw-bold">
                 <FcGoogle style={{ marginRight: "5px" }} />
                 Authorize with Google
